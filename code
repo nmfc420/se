@@ -1,0 +1,97 @@
+Purpose
+The Software Requirements Specification (SRS) will provide a detailed description of the
+requirements for the Hotel Management System (HMS). This SRS will allow for a complete
+understanding of what is to be expected from the newly introduced system which is to be
+constructed. The clear understanding of the system and its’ functionality will allow for the correct
+software to be developed for the end user and will be used for the development of the future stages
+of the project. This SRS will provide the foundation for the project. From this SRS, the Hotel
+Management System can be designed, constructed, and finally tested.
+This SRS will be used by the system development team which is constructing the HMS and the
+hotel end users. The Project team will use the SRS to fully understand the expectations of this HMS
+to construct the appropriate software. The hotel end users will be able to use this SRS as a “test” to
+see if the constructing team will be constructing the system to their expectations. If it is not to their
+expectations the end users can specify how it is not to their liking and the team will change the SRS
+to fit the end users’ needs.
+
+
+Project Scope
+The software product to be produced is a Hotel Management System which will automate the major
+hotel operations. The first subsystem is a Reservation and Booking System to keep track of
+reservations and room availability. The second subsystem is the Tracking and Selling Food System
+that charges the current room. The third subsystem is a General Management Services and
+Automated Tasks System which generates reports to audit all hotel operations and allows
+modification of subsystem information. These three subsystems’ functionality will be described in
+detail in section 2-Overall Description.
+There are two end users for the HMS. The end users are the hotel staff (customer service
+representative) and hotel managers. Both user types can access the Reservation and Booking
+System and the Food Tracking and Selling System. The General Management System will be
+restricted to management users.
+The Hotel Management System’s objectives is to provide a system to manage a hotel that has
+increased in size to a total of 100 rooms. Without automation the management of the hotel has
+become an unwieldy task. The end users’ day-to-day jobs of managing a hotel will be simplified by
+a considerable amount through the automated system. The system will be able to handle many
+services to take care of all customers in a quick manner. The system should be user appropriate,
+easy to use, provide easy recovery of errors and have an overall end user high subjective
+satisfaction.
+User Classes and Characteristics
+User Classes
+There are three user levels in Hotel Management System.
+1. Owner
+2. Manager
+3. Receptionist
+Characteristics of User Classes
+Owner: -
+Hotel owner has the privilege of Monitoring and authorization of all the tasks handle by the system.
+He can access every function performed by the system. Owner of the company as well as the system
+can access to the administration panel which is consider the core of the system. As the main
+authorized person of the company owner gets the ability to manage the other users including their
+user levels and privileges. Taking backups of the system and restoring system can also be done by
+the Owner. Meanwhile he will be able to take all the kinds of reports available in the system. As the
+owner of the system and the company he has the power to set room rates as well. Hotel owner has
+the sole right of deleting a staff member from the system database.
+
+
+Manager:
+Manager is responsible for managing resources available in hotel management system. Manager
+also has most of the privileges mentioned above except the things regarding the payment handling.
+The reason for using a Manager is to reduce the workload done by the owner that cannot be
+assigned to the receptionist, as those tasks seem much responsible. The user level, Manager has the
+authority to take all the reports available in the system but here also except the reports related to
+financial stuff, hotel income. Manager has other abilities that receptionist, user level has. Such as,
+adding new staff member to the system, modifying them or removing them, adding new guests to
+the system, modifying them and removing them from the system, adding new inventory to the
+system, modifying them and removing them. Adding new room types to the system, modifying
+them and removing them.
+Receptionist:
+As a hotel receptionist, he or her role will be to attain the goals of bookings and to ensure that all
+guests are treated with a high standard of customer service. Hierarchically receptionist role has the
+least accessibility to the system functions. Receptionist plays the boundary role of the system. He or
+she can perform limited functions such as registering new guest to the system, make reservations,
+Sending e-mail reminders to clients for booking confirmation. Management of hotel will prefer to
+hire receptionist who have a good standard of general education and possibly in subjects such as
+English, math and IT.
+
+
+System Features
+1. Sometimes it happens that the rooms get booked soon when one visits the place therefore
+user can make advance booking using this system.
+2. It saves user time in search of rooms.
+3. The system is useful as it calculates an exact cost for requested number of days.
+4. It saves organization resources and expenses.
+5. This system is effective and saves time and cost of users.
+6. The system is portable i.e. cab ne used from anywhere.
+7. Easy registration.
+Functional Requirements
+1. Make Reservation
+2. Search Room
+3. Add Payment
+4. Issue Bills
+5. Manage Guest (Add, Update Guest)
+6. Manage Room Detail (Add, Update, Delete)
+7. Manage Inventory (Add, Edit, Delete)
+8. Manage Staff (Add, Update, Delete, View)
+9. Set Rates
+10. Retrieves reports (Staff payment, Income)
+11. Manage Users (Add, Update, Delete)
+12. Taking Backups
+13. Email notification
